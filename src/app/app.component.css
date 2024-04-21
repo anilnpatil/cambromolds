@@ -1,0 +1,35 @@
+/* Styles for h1 */
+h1 {
+    text-align: center; /* Center-align the heading */
+    font-size: 3rem; /* Adjust the font size */
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #4CAF50; /* Green text color */
+    text-shadow: 2px 2px 0px #e04714; /* Add shadow effect */
+    transform: perspective(100px) rotateX(20deg); /* Apply 3D rotation */
+  }
+  
+  /* Styles for buttons container */
+.buttons-container {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping to two lines */
+    justify-content: center; /* Center-align buttons horizontally */
+    align-items: center; /* Center-align buttons vertically */
+    height: 80vh; /* Make the container fill the entire viewport height */
+  }
+  
+  /* Styles for buttons */
+  button {
+    width: 40%; /* Set the width of buttons to 40% of the container */
+    margin: 10px; /* Add margin around buttons */
+    padding: 20px; /* Increase padding to make buttons larger */
+    font-size: 1.5rem; /* Increase font size */
+  }
+
+  button:hover {
+    background-color: #45a049; /* Lighter green color on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove outline on focus */
+  }
+  
